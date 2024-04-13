@@ -1,0 +1,91 @@
+.name {
+   color: black; /* Set the default color */
+   transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change the color on hover */
+.name:hover {
+   color: red; /* Set the color you want on hover */
+}
+
+/* Your existing styles */
+.contact-persons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
+
+.contact-person {
+   text-align: center;
+}
+
+.name {
+   font-weight: bold;
+}
+
+.designation:hover  {
+   color: #777;
+   transition: color 0.3s;
+   color: rgb(47, 255, 64);
+}
+.San:hover{
+    
+   color: #777;
+   transition: color 0.3s;
+   color: rgb(255, 47, 57);
+
+}
+
+.social-media-icons {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.social-media-icons a {
+   display: inline-block;
+   margin: 0 10px;
+}
+
+.social-media-icons img {
+   width: 30px; /* Adjust the size as needed */
+   height: 30px;
+}
+
+/* Logo creation*/
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header and navigation */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of your logo */
+}
+
+.nav-links {
+    list-style: none;
+   display: Right;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}

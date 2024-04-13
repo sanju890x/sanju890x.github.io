@@ -1,0 +1,96 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+
+.social-media-icons{
+    margin-top: 3em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.social-media-icons a img{
+    width: 50px;
+    height: 50px;
+}
+
+#carouselExampleControls{
+    max-width: 1000px;
+    margin: 2em auto;
+}
+
+#carouselExampleControls img{
+    height: 500px;
+}
+
+@media screen and (width < 500px) {
+    .main-hero{
+        flex-direction: column;
+    }
+
+    .hero-title{
+        padding: 3em 0px;
+    }
+ 
+    .hero-text{
+        width: 100%;
+    }
+
+    .image-section{
+        width: 100%;
+    }
+
+    .social-media-icons{
+        flex-direction: column;
+    }
+
+    #carouselExampleControls img{
+        height: 400px;
+    }
+}
+
+/* Logo creation*/
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header and navigation */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of your logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
